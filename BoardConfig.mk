@@ -63,7 +63,7 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/aarch64/QUVNTNM/bin
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-QUVNTNM_TOOLCHAIN-linux-musl-
 TARGET_KERNEL_SOURCE := kernel/zuk/msm8996
-TARGET_KERNEL_CONFIG := z2_plus_defconfig
+TARGET_KERNEL_CONFIG := alchemy_defconfig
 
 # Webview defs
 #PREBUILT_WEBVIEW_VERSION := chromium
